@@ -1,0 +1,78 @@
+body {
+  font: 14px;
+}
+
+nav {
+  height: 130px;
+  background-image: url('/images/fwc_darkbluebg.png');
+  background-repeat: repeat-x;
+  background-position-y: -1px;
+  margin-bottom: 30px;
+}
+
+nav > div > span {
+  font-family: "dusha_plusregular";
+  font-size: 3em;
+  color: white;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+nav > div > img {
+  height: 130px;
+}
+
+nav > div > img.cup {
+  height: 100px;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: "dusha_plusregular" !important;
+  font-size: 54px;
+  margin-bottom: 30px !important;
+}
+
+thead {
+  background-color: #eee;
+  color: #474747;
+}
+
+thead th {
+  font-weight: normal !important;
+}
+
+th {
+  border-bottom-width: 1px !important;
+  border-top-color: rgb(204, 204, 204) !important;
+}
+
+tbody tr {
+  font-size: 20px; 
+  line-height: 36px;
+}
+
+td.flags > img {
+  width: 64px;
+}
+
+tbody tr td:first-of-type {
+  font-family: "dusha_plusregular" !important;
+  font-size: 24px;
+}
+
+@media (max-width: 1065px) {
+  nav > div.float-right {
+    display: none;
+  }
+}
+
+a {
+  color: #00B7FF;
+}
+
+@font-face {
+  font-family: "dusha_plusregular";
+  src: url("/stylesheets/dusha-regular.eot");
+  src: local("☺"),url("/fonts/dusha-regular.eot#iefix") format("embedded-opentype"),url("/fonts/dusha-regular.woff") format("woff"),url("/fonts/dusha-regular.ttf") format("truetype"),url("/fonts/dusha-regular.svg#svgFontName") format("svg")
+}
